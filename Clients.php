@@ -57,7 +57,7 @@
                     <td>".$row['Address']."</td>
                     <td>".$row['No']."</td>
                     <td>".$row['Phone']."</td>
-                    <td>".'<a><input type="submit" value="Edit" class="btn btn-success btn-sm"></a><a>
+                    <td>".'<a href="Updateclient.php?id='.$id.'"><input type="button" value="Edit" class="btn btn-success btn-sm"></a><a>
                     <input type="submit" name="del" value="Delet" class="btn btn-danger btn-sm"></a>'."</td></form>
                 ";
             }
