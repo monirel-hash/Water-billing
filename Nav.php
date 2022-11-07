@@ -1,13 +1,16 @@
-<nav class="navbar navbar-inverse" style="margin: 0px -5px 0px -5px;">
-    
 
-
-
-<div class="container-fluid">
-        <div class="navbar-header">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
         <a class="navbar-brand" href="home.php">Amendis</a>
-        </div>
-        <ul class="nav navbar-nav">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
         <li class="active"><a href="home.php">Home</a></li>
         <li class=""><a href="Clients.php">Clients</a></li>
         <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
@@ -19,10 +22,10 @@
         </li> -->
         <li><a href="Users.php"> Users </a></li>
         <li><a href="Bills.php"> Factures </a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
         <li><a href="logout.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
-        </ul>
+      </ul>
     </div>
-
-    </nav><br>
+  </div>
+</nav>
